@@ -8,7 +8,7 @@ import com.zaxxer.hikari.HikariDataSource;
 
 public class DBConnect {
 
-	private static String jdbcURL = "jdbc:mysql://localhost/go_sales";
+	private static String jdbcURL = "jdbc:mariadb://localhost/go_sales";
 	private static HikariDataSource ds;
 
 	public static Connection getConnection() {
@@ -17,7 +17,7 @@ public class DBConnect {
 			HikariConfig config = new HikariConfig();
 			config.setJdbcUrl(jdbcURL);
 			config.setUsername("root");
-			config.setPassword("password");
+			config.setPassword("root");
 			
 			// configurazione MySQL
 			config.addDataSourceProperty("cachePrepStmts", "true");

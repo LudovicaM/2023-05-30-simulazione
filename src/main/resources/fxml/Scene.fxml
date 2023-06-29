@@ -95,12 +95,12 @@
                         <Insets left="130.0" />
                      </HBox.margin>
                   </Label>
-                  <ComboBox fx:id="cmbRivenditore" disable="true" prefWidth="200.0">
+                  <ComboBox fx:id="cmbRivenditore" prefWidth="200.0">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </ComboBox>
-                  <Button fx:id="btnAnalizzaComponente" disable="true" mnemonicParsing="false" onAction="#doAnalizzaComponente" text="Analizza Componente">
+                  <Button fx:id="btnAnalizzaComponente" mnemonicParsing="false" onAction="#doAnalizzaComponente" text="Analizza Componente">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -120,7 +120,7 @@
                         <Insets left="10.0" />
                      </HBox.margin>
                   </Label>
-                  <ComboBox fx:id="cmbProdotto" disable="true" prefWidth="150.0" />
+                  <ComboBox fx:id="cmbProdotto" prefWidth="150.0" />
                   <Label text="Q">
                      <HBox.margin>
                         <Insets left="20.0" />
@@ -139,7 +139,7 @@
                      </font>
                   </Label>
                   <TextField fx:id="txtN" disable="true" prefWidth="90.0" />
-                  <Button fx:id="btnSimula" disable="true" mnemonicParsing="false" onAction="#doSimulazione" text="Simula">
+                  <Button fx:id="btnSimula" mnemonicParsing="false" onAction="#doSimulazione" text="Simula">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>

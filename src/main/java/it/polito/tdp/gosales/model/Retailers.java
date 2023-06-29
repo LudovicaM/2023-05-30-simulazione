@@ -2,7 +2,7 @@ package it.polito.tdp.gosales.model;
 
 import java.util.Objects;
 
-public class Retailers {
+public class Retailers implements Comparable<Retailers>{
 
 	private int code;
 	private String name;
@@ -94,6 +94,12 @@ public class Retailers {
 	@Override
 	public String toString() {
 		return name;
+	}
+
+	@Override
+	public int compareTo(Retailers o) {
+		// TODO Auto-generated method stub
+		return this.name.compareTo(o.getName());
 	}
 	
 	
